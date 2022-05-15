@@ -90,13 +90,13 @@ function deselectAnswers(){
 }
 
 function getSelected(){
+
     let answer;
     answers.forEach(currentAns=>{
-
         if(currentAns.checked){
             answer= currentAns.id;
         }  
-        return answer
+        
 })
-
+return answer
 }
