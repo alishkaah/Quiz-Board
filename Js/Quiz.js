@@ -50,3 +50,13 @@ const QuizData =[
    
     }
 ];
+const questionCard = document.getElementById('question-card')
+
+//const anwers1 = document.getElementById('answer"')
+const answers = document.querySelectorAll('.answer')
+const questionTitle = document.getElementById('quiz')
+const _1answer = document.getElementById('_1answer')
+//console.log(_1answer.innerText)
+const _2answer = document.getElementById('_2answer')
+const _3answer = document.getElementById('_3answer')
+const _4answer = document.getElementById('_4answer')
