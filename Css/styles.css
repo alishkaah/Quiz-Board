@@ -36,9 +36,30 @@ button{
     background-color: rgb(66, 167, 66);
     color: #F5F5F5;
     padding: 18px;
-    margin-top: 100px;
+    margin-top: 10px;
     font-size: 20px;
 }
 button:hover{
     background-color: rgba(80, 155, 80, 0.945);
+}
+
+.scoreCard{
+
+    width: 520px;
+    background: #a3d4ce;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 6px;
+}
+.scoreCard h3{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.scoreCard img{
+    position: relative;
+    width: 520px;
+    height: 250px;
+    background: #F5F5F5;
+    box-shadow: 5px 5px 15px rgba(#6ddfd0, .5);
 }
