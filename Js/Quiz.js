@@ -64,6 +64,23 @@ const _4answer = document.getElementById('_4answer')
 const submitBtn = document.getElementById('submit')
 //console.log(submitBtn.textContent = 'button1234')
 const showScore = document.querySelector('#showScore')
+
 let score = 0
 let currentQuiz = 0
 
+loadQuestion()
+
+function loadQuestion(){
+   deselectAnswers()
+
+    const currentQuizData = QuizData[currentQuiz]
+  // console.log(questionTitle.textContent = currentQuizData.quiz)
+   questionTitle.innerText = currentQuizData.quiz
+
+ // console.log(quiz.textContent= QuizData[currentQuiz].a)
+
+  _1answer.innerText = currentQuizData.a
+  _2answer.textContent = currentQuizData.b
+  _3answer.textContent = currentQuizData.c
+  _4answer.textContent = currentQuizData.d
+}
