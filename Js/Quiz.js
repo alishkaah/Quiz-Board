@@ -100,3 +100,12 @@ function getSelected(){
 })
 return answer
 }
+
+// Event listener
+submitBtn.addEventListener('click',submitFunction)
+console.log()
+
+function submitFunction(){
+    console.log('clicked')
+}
+
