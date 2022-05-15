@@ -60,3 +60,10 @@ const _1answer = document.getElementById('_1answer')
 const _2answer = document.getElementById('_2answer')
 const _3answer = document.getElementById('_3answer')
 const _4answer = document.getElementById('_4answer')
+
+const submitBtn = document.getElementById('submit')
+//console.log(submitBtn.textContent = 'button1234')
+const showScore = document.querySelector('#showScore')
+let score = 0
+let currentQuiz = 0
+
