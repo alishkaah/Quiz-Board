@@ -106,6 +106,17 @@ submitBtn.addEventListener('click',submitFunction)
 console.log()
 
 function submitFunction(){
-    console.log('clicked')
+   // console.log('clicked')
+    const checkedAns = getSelected()
+    //console.log(checkedAns)
+        if(checkedAns ===QuizData[currentQuiz].correct){
+            score++
+        }
+        currentQuiz++;
+
+        if(currentQuiz < QuizData.length){
+            loadQuestion()
+        }
 }
+
 
