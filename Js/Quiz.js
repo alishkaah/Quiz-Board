@@ -117,6 +117,12 @@ function submitFunction(){
         if(currentQuiz < QuizData.length){
             loadQuestion()
         }
+        else{
+            showScore.innerHTML = `
+            <h3> You answered ${score} / ${QuizData.length} Questions </h3>
+            <button onclick="location.reload()">Play Again</button>
+            `
+        }
 }
 
 
