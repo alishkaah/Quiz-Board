@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz-Board</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    
+    
+    <title>Quiz App</title>
+    
 </head>
 <body>
+    <div class="card" id="question-card">
+        <div class="card-header">
+            <h4 id="quiz">Questions Comes here</h4>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a" id="_1answer" class="_1answer">A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="2" id="_2answer">B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="3" id="_3answer">C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="4" id="_4answer">D</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+        <div id="showScore" class="scoreArea"></div>
+    </div>
     
 </body>
+<script type="text/javascript" src="Js/Quiz.js"></script>
+
 </html>
