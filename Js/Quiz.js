@@ -120,6 +120,7 @@ function submitFunction(){
         else{
             showScore.innerHTML = `
             <h3> You answered ${score} / ${QuizData.length} Questions </h3>
+            <img src="images/677-trophy.gif" alt="trophy">
             <button onclick="location.reload()">Play Again</button>
             `
         }
