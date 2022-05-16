@@ -6,6 +6,7 @@
  - [Description](#description)
  - [Features](#features)
  - [Requirements](#requirements)
+ -[Figma Design](#Figma Design)
  - [Installation Process](#installation-process)
  - [Live Link](#live-link)
  - [Technology Used](#technology-used)
@@ -25,6 +26,9 @@ As a user of the web app,you will be able to :
  ###  Requirements
  * Access to  a computer, smartphone or other devices
  * Access to internet
+
+###  Figma Design
+  Here is my Figma Design: https://www.figma.com/file/AFWP8sldJk50Bd6i8A61Cp/Quiz-app-Figma-design?node-id=0%3A1
  ### Installation Process
  ****
 * Clone to thir repo : git clone https://github.com/alishkaah/Quiz-Board.git
